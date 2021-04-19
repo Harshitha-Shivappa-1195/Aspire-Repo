@@ -22,5 +22,6 @@ public class TestCaseThree{
 	}
 
 	public void loginEmployee(String locator, String testData) {
+		System.out.println("Employee login");
 	}
 }
