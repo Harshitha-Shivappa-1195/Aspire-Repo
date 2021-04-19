@@ -1,0 +1,134 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21122" started-at="2021-04-15T12:13:10Z" finished-at="2021-04-15T12:13:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21122" started-at="2021-04-15T12:13:10Z" finished-at="2021-04-15T12:13:31Z">
+      <class name="${package}.testscript.TestHomePage">
+        <test-method status="PASS" signature="intitailizeBrowser(java.lang.String)[pri:0, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="intitailizeBrowser" is-config="true" duration-ms="5376" started-at="2021-04-15T12:13:10Z" finished-at="2021-04-15T12:13:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="invokeBrowser" is-config="true" duration-ms="7265" started-at="2021-04-15T12:13:15Z" finished-at="2021-04-15T12:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="595" started-at="2021-04-15T12:13:26Z" data-provider="headerData" finished-at="2021-04-15T12:13:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="366" started-at="2021-04-15T12:13:27Z" data-provider="headerData" finished-at="2021-04-15T12:13:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="325" started-at="2021-04-15T12:13:27Z" data-provider="headerData" finished-at="2021-04-15T12:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Specialty Practices]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="282" started-at="2021-04-15T12:13:28Z" data-provider="headerData" finished-at="2021-04-15T12:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="260" started-at="2021-04-15T12:13:28Z" data-provider="headerData" finished-at="2021-04-15T12:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Media]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="209" started-at="2021-04-15T12:13:28Z" data-provider="headerData" finished-at="2021-04-15T12:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Insights]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="341" started-at="2021-04-15T12:13:28Z" data-provider="headerData" finished-at="2021-04-15T12:13:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="214" started-at="2021-04-15T12:13:29Z" data-provider="headerData" finished-at="2021-04-15T12:13:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateHeader(java.lang.String)[pri:1, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="validateHeader" duration-ms="197" started-at="2021-04-15T12:13:29Z" data-provider="headerData" finished-at="2021-04-15T12:13:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Partners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:${package}.testscript.TestHomePage@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="1877" started-at="2021-04-15T12:13:29Z" finished-at="2021-04-15T12:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ${package}.testscript.TestHomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58973" started-at="2021-04-16T10:57:16Z" finished-at="2021-04-16T10:58:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58973" started-at="2021-04-16T10:57:16Z" finished-at="2021-04-16T10:58:15Z">
+      <class name="com.atmecs.aspire.testscript.TestAspire">
+        <test-method status="PASS" signature="intitailizeBrowser(java.lang.String)[pri:0, instance:com.atmecs.aspire.testscript.TestAspire@27efef64]" name="intitailizeBrowser" is-config="true" duration-ms="10258" started-at="2021-04-16T10:57:16Z" finished-at="2021-04-16T10:57:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.aspire.testscript.TestAspire@27efef64]" name="invokeBrowser" is-config="true" duration-ms="1944" started-at="2021-04-16T10:57:26Z" finished-at="2021-04-16T10:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="loginEmployee(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.aspire.testscript.TestAspire@27efef64]" name="loginEmployee" duration-ms="637" started-at="2021-04-16T10:57:30Z" data-provider="headerData" finished-at="2021-04-16T10:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[employee@atmecs.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmployee -->
+        <test-method status="PASS" signature="loginEmployee(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.aspire.testscript.TestAspire@27efef64]" name="loginEmployee" duration-ms="138" started-at="2021-04-16T10:57:31Z" data-provider="headerData" finished-at="2021-04-16T10:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[atmecs@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmployee -->
+        <test-method status="PASS" signature="loginEmployee(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.aspire.testscript.TestAspire@27efef64]" name="loginEmployee" duration-ms="9237" started-at="2021-04-16T10:57:31Z" data-provider="headerData" finished-at="2021-04-16T10:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[submit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Timesheet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmployee -->
+        <test-method status="PASS" signature="timeSheet()[pri:1, instance:com.atmecs.aspire.testscript.TestAspire@27efef64]" name="timeSheet" duration-ms="34015" started-at="2021-04-16T10:57:40Z" finished-at="2021-04-16T10:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheet -->
+      </class> <!-- com.atmecs.aspire.testscript.TestAspire -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
